@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-  		<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-      	<title>Testing Website</title>
-        <link rel="stylesheet" href="style.css">
-        <img id="cabeçalho" src="https://cdn.pixabay.com/photo/2016/07/30/19/47/banner-1557834_1280.jpg">
-        <br><br><br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudo HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tabelas</h1>
+  <table border="0">
+    <thead>
+      <tr>
+        <th>Item 1</th>
+        <th>Item 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+      <tr>
+         <td>...</td>
+        <td>...</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Área de Login</h2>
+  <form method="GET">
+    <select name="seletor" size="2" multiple>
+      <option>Mais vendidos</option>
+      <option>Mais recentes</option>
+    </select>
+  </form>
 
-        <h1>Site teste para aprender HTML+CSS </h1>
-    </head>
-    <body>
-        <table>
-            <td>
-                <p>
-                    Nullam in turpis placerat nisi convallis facilisis sit amet ac sem. Duis ornare gravida lectus, a volutpat felis feugiat
-                    quis. Nullam sodales tincidunt orci vitae tempor. In ut tortor massa. Cras vel diam sed enim commodo feugiat ut nec
-                    libero. Sed lacinia, ipsum facilisis rhoncus elementum, erat odio tempus urna, at tincidunt est sem ac quam. Class
-                    aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris bibendum facilisis
-                    accumsan. Quisque id accumsan lorem. Aliquam a lacus lectus. Proin mattis varius lobortis. In rutrum ipsum vel tincidunt
-                    feugiat. Etiam condimentum rhoncus cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus.
-                    <br><br>
-                    Vestibulum dapibus sagittis quam, ut tincidunt quam fermentum sit amet. Ut vel mauris venenatis, scelerisque diam at,
-                    varius libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque vehicula
-                    tellus porta dictum sollicitudin. Cras non convallis quam. Mauris tempus leo sit amet magna ornare tincidunt. Ut eget
-                    venenatis ex, sit amet tristique elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. In porttitor risus orci, et pharetra elit rhoncus sit amet. Ut erat tortor, dapibus nec lorem id, congue
-                    convallis ex. Aenean sagittis sagittis luctus. Vivamus at placerat libero. Praesent quis libero egestas, mollis eros sit
-                    amet, faucibus risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Fusce eu arcu eu justo iaculis rhoncus. Donec id aliquam leo, ac vehicula elit.
-                    <br><br>
-                    Vivamus ut placerat dui. Nam tortor quam, eleifend a tempor eu, cursus nec diam. Donec egestas sagittis justo eget
-                    egestas. Morbi pulvinar posuere lectus, a ultrices dui porta a. Mauris dignissim lacus mi, eget ornare urna consectetur
-                    vel. Nullam tempus et arcu a convallis. Pellentesque feugiat magna non erat porta commodo. Fusce malesuada lobortis urna
-                    a iaculis. Duis ornare, arcu eu interdum vulputate, eros est accumsan sem, eu efficitur erat odio eget lectus. Nullam
-                    sit amet tellus maximus, lacinia neque sit amet, lobortis augue. Cras ante massa, aliquam nec metus nec, dictum posuere
-                    magna. Aliquam nisi tellus, convallis quis suscipit at, ornare eu mauris. Nullam aliquet ipsum vel arcu pretium
-                    tristique ut eget ante.
-                </p>
-            </td>
-        </table>
-    </body>
+  <h2>Área de Cadastro</h2>
+  <form method="GET" action="teste.html">
+    <label>Nome completo: </label><br>
+    <input type="text" />
+    <br><br>
+    <input type="password" />
+    <br><br>
+    <input type="color" />
+    <br><br>
+    <input type="date" />
+    <br><br>
+    <input type="file" />
+    <br><br>
+    <input type="range" />
+    <br><br>
+    <textarea name="texto"></textarea>
+    <label>
+    <input type="checkbox" />
+      Eu declaro que amo minha mulher
+    </label>
+    <br><br>
+    <button>Fazer cadastro</button>
+    <input type="reset" id="reset"/>
 </html>
