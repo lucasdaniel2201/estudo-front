@@ -4,7 +4,7 @@
 
 ## ℹ️ Visão Geral
 
-Este projeto é uma aplicação simples desenvolvida para fins educacionais, focando em construir uma página web interativa usando as tecnologias básicas da web.
+Este projeto é uma aplicação simples desenvolvida para fins educacionais, focando em construir uma página web interativa usando as tecnologias básicas da web;
 
 ## 🛠️ Tecnologias Utilizadas
 
